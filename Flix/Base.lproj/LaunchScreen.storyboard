@@ -15,12 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="gkr-Qo-pKm">
-                                <rect key="frame" x="138" y="379" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="gkr-Qo-pKm">
+                                <rect key="frame" x="138" y="378.66666666666669" width="138" height="139.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="iuT-p2-T1m"/>
+                                    <constraint firstAttribute="width" constant="138" id="zo3-YD-hJe"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gkr-Qo-pKm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gWx-db-Tg5"/>
+                            <constraint firstItem="gkr-Qo-pKm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="khb-zX-1Th"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
