@@ -49,10 +49,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="JVp-0y-wpt" secondAttribute="trailing" constant="10" id="0eb-tl-9Zo"/>
+                                                <constraint firstAttribute="trailing" secondItem="XHq-RY-YaD" secondAttribute="trailing" constant="10" id="2w9-TO-itw"/>
                                                 <constraint firstItem="Cyb-ag-llo" firstAttribute="leading" secondItem="Pih-pN-WMG" secondAttribute="leading" constant="10" id="6vb-aI-wRP"/>
-                                                <constraint firstAttribute="trailing" secondItem="XHq-RY-YaD" secondAttribute="trailing" constant="10" id="R2Z-qE-9KG"/>
+                                                <constraint firstItem="XHq-RY-YaD" firstAttribute="top" secondItem="Cyb-ag-llo" secondAttribute="top" id="Hdy-8W-Lkt"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="JVp-0y-wpt" secondAttribute="bottom" constant="10" id="TmZ-wL-L3L"/>
-                                                <constraint firstItem="XHq-RY-YaD" firstAttribute="top" secondItem="Pih-pN-WMG" secondAttribute="top" constant="10" id="UPP-Xt-khM"/>
                                                 <constraint firstItem="Cyb-ag-llo" firstAttribute="top" secondItem="Pih-pN-WMG" secondAttribute="top" constant="10" id="VEu-rw-Aef"/>
                                                 <constraint firstItem="XHq-RY-YaD" firstAttribute="leading" secondItem="Cyb-ag-llo" secondAttribute="trailing" constant="10" id="Vdi-dE-bPZ"/>
                                                 <constraint firstItem="JVp-0y-wpt" firstAttribute="leading" secondItem="Cyb-ag-llo" secondAttribute="trailing" constant="10" id="igA-UN-IWU"/>
